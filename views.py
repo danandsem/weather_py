@@ -3,13 +3,13 @@ import datetime as dt
 import requests
 views = Blueprint(__name__ ,"views")
 
-API_KEY = "e91d2750d685599e6e19f07f9d3523ce"
+API_KEY = ""
 ENDPOINT = "https://api.openweathermap.org/data/2.5/weather"
 APP_ID = "e91d2750d685599e6e19f07f9d3523ce"
 UNITS = "metric"
 
-# url_lan_lat = "https://api.openweathermap.org/data/2.5/weather?lat=51.5072&lon=0.1276&appid=e91d2750d685599e6e19f07f9d3523ce"
-# url_city_country = "https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=e91d2750d685599e6e19f07f9d3523ce"
+# url_lan_lat = "https://api.openweathermap.org/data/2.5/weather?lat=51.5072&lon=0.1276&appid="
+# url_city_country = "https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid="
 # response = requests.get(url_city_country).json()
 
 
